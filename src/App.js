@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Stock from "./pages/Stock"
 import Stocks from "./pages/Stocks"
+import Nav from "./components/Nav"
 
 // {/* Route	Renders	Component
 // /	"This is the Homepage page"	Home
