@@ -4,10 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import Router
+import {BrowserRouter as Router} from 'react-router-dom'
+// why as Router? idfk
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* //wrap app in Router */}
+    <Router>
+      <App />
+    </Router>
   </React.StrictMode>
 );
 

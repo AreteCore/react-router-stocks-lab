@@ -1,12 +1,23 @@
-# Getting Started with Create React App
+# React Router "Stocks" Lab
+
+This lab is a React lab that uses React Router and links to an API on the backend to query for stock info, which it then displays for the user.
+
+Commands used at start:
+`npx create-react-app`
+`npm i react-router-dom`
+
+
+
+### ----- _And now, the boilerplate React Readme stuff_ -----
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -39,7 +50,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
