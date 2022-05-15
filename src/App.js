@@ -1,5 +1,5 @@
 import './App.css';
-import {Route, Routes} from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 
 import Home from "./pages/Home"
 import About from "./pages/About"
@@ -15,12 +15,13 @@ import Stocks from "./pages/Stocks"
 function App() {
   return (
     <div className="App">
-<Routes>
-<Route path="/" element={<Home/>}/>
-<Route path="/about" element={<About/>}/>
-<Route path="/stocks" element={<Stocks/>}/>
-<Route path="/stocks/:symbol" element={<Stock/>}/>
-</Routes>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/stocks" element={<Stocks />} />
+        <Route path="/stocks/:symbol" element={<Stock />} />
+      </Routes>
     </div>
   );
 }
