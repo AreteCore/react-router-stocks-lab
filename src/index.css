@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
+a {
+  color: rgb(0, 11, 59);
+  font-weight: bold;
+}
+
+a:visited {
+  font-style: italic;
+  font-weight:lighter;
+}
+
+
+
+
 div {
   border: 1px solid black;
 }

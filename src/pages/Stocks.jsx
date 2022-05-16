@@ -12,7 +12,7 @@ return (
                     <Link 
                     key={stock.symbol} 
                     to={`/stock/${stock.symbol}`}>
-                        {stock.name}
+                        {stock.name} // {stock.symbol}
                     </Link>
             )
         } )
