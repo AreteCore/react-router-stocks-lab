@@ -44,3 +44,12 @@ div {
   align-items: center;
   grid-column: 2
 }
+
+.stocks {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.stocks * {
+  margin-top: 1em;
+}
