@@ -15,7 +15,7 @@ You are going to have to go to [https://iexcloud.io/](iexcloud) to get an API ke
 ### // Explaining the layout of the pages
 They are pretty simple. You can just intuitively see what's going on. `/` forwards the user to `/stocks/`
 
-### // Explaining the <Nav/>
+### // Explaining the Nav
 The Nav is just a component that displays the links. It is there on every page view.
 
 ## I am really tired and I need to go to bed so that's it for this readme.
