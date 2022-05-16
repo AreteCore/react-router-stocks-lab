@@ -8,17 +8,19 @@ Commands used at start:
 
 `npm i react-router-dom` <- installs the router-dom which we will use to route pages, more about this later
 
-### // warn of .env and how to use api key
+### // Warning of .env and how to use API key
+I used a .env file to store my limited-use API key.
+You are going to have to go to [https://iexcloud.io/](iexcloud) to get an API key to make this work. Store it in a `.env` in your root App directory (i.e. the same directory as `.gitignore` and `package.json` and add it inside `.env` in this format: `REACT_APP_APIKEY = abc12345_etc_you_get_the_idea`
 
-### // explain the layout of the pages
+### // Explaining the layout of the pages
+They are pretty simple. You can just intuitively see what's going on. `/` forwards the user to `/stocks/`
 
-### // explain the nav
+### // Explaining the <Nav/>
+The Nav is just a component that displays the links. It is there on every page view.
 
-### // explain the improts for each page
-index js app js etc
+## I am really tired and I need to go to bed so that's it for this readme.
 
-###  // explain the hard coded data
- 
+
 #### ----- _And now, the boilerplate React Readme stuff_ -----
 #### Getting Started with Create React App
 
