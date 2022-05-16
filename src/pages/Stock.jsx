@@ -39,7 +39,7 @@ export default function Stock() {
     //the actual data display
     function displayStock() {
         return (
-            <div>
+            <div className="bg">
                 <h2>{stockQuote.companyName}({stockQuote.symbol})</h2>
                 <div>Website: <a href={stockInfo.website}>{stockInfo.website}</a></div>
                 <h3> Current Price in {stockQuote.currency}: {stockQuote.latestPrice}</h3>
@@ -47,6 +47,6 @@ export default function Stock() {
         )
     }
 
-    return stockInfo && stockQuote ? displayStock() : <h2>hold on a sec</h2>
+    return stockInfo && stockQuote ? displayStock() : <h1 style={{fontSize: "180px" }}>hold on a sec</h1>
 
 }

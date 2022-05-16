@@ -32,7 +32,10 @@ div {
 .App {
   display: grid;
   grid-template-columns: 1fr 7fr;
-  height: 100vh
+  height: 100vh;
+  gap: 5px;
+  background: grey;
+  
 }
 
 .nav {
@@ -44,14 +47,20 @@ div {
   align-items:flex-start;
   padding-left: 1em;
   background: rgb(2,0,36);
-  background: linear-gradient(145deg,rgba(51,65,190,1) 3%, rgba(0,128,154,1) 100%);
-  border-right: grey 2px solid
+  background: linear-gradient(145deg,rgba(51,65,190,.8) 3%, rgba(0,128,154,.5) 100%);
+  border: rgb(59, 59, 59) .5px solid;
+  margin: 5px;
+  border-radius: 10px;
 }
 
 .nav * {
   margin-top: 1em;
 }
 
+.bg {
+  /* background-color: grey; */
+
+}
 .home {
   box-sizing: border-box;
   display:flex;
@@ -61,7 +70,6 @@ div {
   justify-content: center;
   align-items: center;
   grid-column: 2;
-  background-color: grey;
 }
 
 .stocks {
@@ -79,7 +87,7 @@ div {
 
 .columns div {
   font-weight: bold;
-  border-bottom: grey 1px solid;
+  border-bottom: rgb(0, 0, 0) 1px solid;
   padding-bottom: .2em;
 }
 
@@ -97,10 +105,10 @@ div {
 }
 
 .columns .red {
-  color: red;
+  color: rgb(151, 0, 0);
 }
 .columns .green {
-  color: green;
+  color: rgb(0, 91, 0);
 }
 
 

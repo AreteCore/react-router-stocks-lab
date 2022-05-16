@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div className="home">
+        <div className="home bg">
             <h1>Stocks Homepage</h1>
             <h2><i>Here, have some Futurama lorem ipsum</i></h2>
             <p>You lived before you met me?! Bender, I didn't know you liked cooking. That's so cute. Bite my shiny metal ass. Guess again. Hello Morbo, how's the family?</p>
