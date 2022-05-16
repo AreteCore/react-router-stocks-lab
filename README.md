@@ -8,6 +8,8 @@ Commands used at start:
 
 `npm i react-router-dom` <- installs the router-dom which we will use to route pages, more about this later
 
+### // warn of .env and how to use api key
+
 ### // explain the layout of the pages
 
 ### // explain the nav

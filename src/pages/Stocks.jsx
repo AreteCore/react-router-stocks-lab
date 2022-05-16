@@ -2,8 +2,8 @@ import {Link} from "react-router-dom"
 import stocks from "../data.js"
 
 export default function Stocks() {
-// console.log(stocks)
-// stocks.forEach(stock => console.log(stock.name))
+//do not forgeet that each <Link> needs a to={`/some/:thing`}
+// i.e. <Link to={`/some/place/:new`}></Link>
 return (
     <div className="stocks">
         <h1>My Stock Portfolio</h1>
