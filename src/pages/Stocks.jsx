@@ -7,12 +7,24 @@ export default function Stocks() {
 return (
     <div className="stocks">
         <h1>My Stock Portfolio</h1>
+        <div className="columns">
+            <div>Company Name</div>
+            <div>Price</div>
+            <div>Change</div>
+        </div>
         {stocks.map((stock, index) => {
+            
+            let color = null
+            stock.change < 0 ? color = "red" :  color = "green"
+            
             return (
                     <Link 
                     key={stock.symbol} 
-                    to={`/stock/${stock.symbol}`}>
-                        {stock.name} // {stock.symbol}
+                    to={`/stock/${stock.symbol}`}
+                    className={`link columns`}>
+                        <div>{stock.name} ({stock.symbol})</div>
+                        <div>${stock.lastPrice}</div>
+                        <div className={color}>{stock.change}</div>
                     </Link>
             )
         } )
